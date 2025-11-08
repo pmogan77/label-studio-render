@@ -20,7 +20,7 @@ export STORAGE_AWS_ENDPOINT_URL="$AWS_ENDPOINT_URL"
 # Database configuration (Supabase)
 # -------------------------------
 export DJANGO_DB="postgresql"
-export POSTGRE_USER="postgres"
+export POSTGRE_USER="postgres.tidaxghxsacxcqdonddc"
 export POSTGRE_PASSWORD="$POSTGRE_PASSWORD"
 export POSTGRE_NAME="postgres"
 export POSTGRE_HOST="$POSTGRE_HOST"
@@ -50,4 +50,4 @@ fi
 # Start Label Studio
 # -------------------------------
 echo "🚀 Starting Label Studio on port ${PORT:-8080}..."
-label-studio start --host 0.0.0.0 --port ${PORT:-8080}
+label-studio start --host https://label-studio-render-cxdy.onrender.com --port ${PORT:-8080}
