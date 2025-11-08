@@ -1,0 +1,2 @@
+label-studio==1.21.0
+boto3
