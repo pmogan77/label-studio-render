@@ -20,4 +20,4 @@ export LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
 # -------------------------------
 # Start Label Studio
 # -------------------------------
-label-studio start --host $RENDER_URL --port 8080
+label-studio start --host https://label-studio-render-cxdy.onrender.com --port 8080
