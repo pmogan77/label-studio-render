@@ -24,7 +24,7 @@ export POSTGRE_USER="postgres.tidaxghxsacxcqdonddc"
 export POSTGRE_PASSWORD="$POSTGRE_PASSWORD"
 export POSTGRE_NAME="postgres"
 export POSTGRE_HOST="$POSTGRE_HOST"
-export POSTGRE_PORT="6543"
+export POSTGRE_PORT="5432"
 
 echo "🗄️  Using PostgreSQL host: $POSTGRE_HOST"
 echo "🪣 Using S3 bucket: $AWS_BUCKET ($AWS_REGION)"
